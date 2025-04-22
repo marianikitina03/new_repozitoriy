@@ -14,7 +14,7 @@ namespace MedicamentApp
         {
             var miramistin = new Medicament(15809195, "Мирамистин", DescriptionOrNot.No, "Инфамед");
 
-            miramistin.Price = 471.5;
+            miramistin.Price = 4716.5;
             miramistin.Quality = 3;
 
             string[] info = miramistin.GetInfo();
