@@ -146,7 +146,7 @@ namespace MedicamentLibrary.UnitTests
             {
                 "12193131 (арт.) Офломелид;",
                 "Нужен рецепт; Производитель: Синтез;",
-                "Цена: 325,3 руб.; Количество на складе: 1 штук(и).",
+                "Цена: 325,3 руб.; Количество на складе: 2 штук(и).",
                 "Объем тубы: 500 (мг)."
             };
 
@@ -162,7 +162,7 @@ namespace MedicamentLibrary.UnitTests
         {
             var ophlomelid = new Medicament.Ointment(12193131, "Офломелид", DescriptionOrNot.Yes, "Синтез", 500);
             ophlomelid.Price = 325.3;
-            ophlomelid.Quality = 1;
+            ophlomelid.Quality = 2;
             return ophlomelid;
         }
     }
